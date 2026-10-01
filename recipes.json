@@ -1,0 +1,4053 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "updatedAt": "2026-10-01",
+  "categories": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "icon": "sunrise"
+    },
+    {
+      "id": "lunch",
+      "name": "Lunch",
+      "icon": "salad"
+    },
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "icon": "utensils"
+    },
+    {
+      "id": "quick",
+      "name": "Quick Meals",
+      "icon": "timer"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "icon": "cake_slice"
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "icon": "cookie"
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "icon": "cup_soda"
+    },
+    {
+      "id": "vegetarian",
+      "name": "Vegetarian",
+      "icon": "leaf"
+    },
+    {
+      "id": "baking",
+      "name": "Baking",
+      "icon": "wheat"
+    },
+    {
+      "id": "pakistani",
+      "name": "Pakistani",
+      "icon": "flame"
+    },
+    {
+      "id": "italian",
+      "name": "Italian",
+      "icon": "pizza"
+    },
+    {
+      "id": "asian",
+      "name": "Asian",
+      "icon": "soup"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "chicken-biryani",
+      "title": "Chicken Biryani",
+      "description": "Fragrant basmati rice layered with spiced chicken, caramelized onions, mint, and saffron.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 20,
+      "cookTime": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Chicken thighs, bone-in",
+          "quantity": 700,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Plain yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Yellow onions, thinly sliced",
+          "quantity": 2,
+          "unit": "large",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomatoes, chopped",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Biryani masala",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh mint leaves",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh cilantro",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Saffron soaked in milk",
+          "quantity": 1,
+          "unit": "pinch",
+          "group": "SPICES"
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ghee",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the rice until the water runs clear, then soak for 20 minutes.",
+          "tip": "Soaking keeps the grains long and separate.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Mix the chicken with yogurt, ginger-garlic paste, biryani masala, half the mint and cilantro, lemon juice, and salt. Let it marinate while the rice soaks."
+        },
+        {
+          "text": "Add the onions and cook until golden brown.",
+          "tip": "Stir often and keep the heat at medium so the onions caramelize without burning.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Add the tomatoes and the marinated chicken. Cook until the chicken is sealed and the oil starts to separate.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Boil the soaked rice in salted water until 70% cooked, then drain.",
+          "tip": "The grains should still have a firm center.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Layer the rice over the chicken. Top with the remaining mint and cilantro, the saffron milk, and the ghee."
+        },
+        {
+          "text": "Cover tightly and cook on the lowest heat so the steam finishes the rice.",
+          "tip": "Seal the lid with foil or a damp cloth to trap the steam.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rest for 5 minutes, then fluff gently from the edges and serve with raita.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "Pakistani",
+        "Dinner",
+        "Gluten-free"
+      ],
+      "popular": 100,
+      "version": 1,
+      "badge": "EDITOR'S PICK",
+      "photo": "chicken_biryani"
+    },
+    {
+      "id": "chicken-karahi",
+      "title": "Chicken Karahi",
+      "description": "A bold, tomato-forward Pakistani classic with ginger, green chilies, and a glossy finish.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Chicken, bone-in pieces",
+          "quantity": 800,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Ripe tomatoes, chopped",
+          "quantity": 5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Green chilies, slit",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh ginger, julienned",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Coriander powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Red chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper, crushed",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oil in a wok or karahi over high heat. Add the cumin seeds and let them sizzle for a few seconds."
+        },
+        {
+          "text": "Add the chicken and fry on high heat until the pieces turn pale golden on all sides.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Stir in the ginger-garlic paste and cook until the raw smell is gone.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Add the tomatoes, salt, chili powder, and coriander. Cover and cook on medium heat until the tomatoes break down completely.",
+          "tip": "Press the tomatoes against the side of the pan to speed things up.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Uncover and cook on high heat, stirring, until the oil rises to the surface and the masala clings to the chicken.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Add the green chilies, ginger, and black pepper. Cook for 2 more minutes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Finish with fresh cilantro and serve straight from the pan with hot naan."
+        }
+      ],
+      "tags": [
+        "Pakistani",
+        "Dinner",
+        "Gluten-free",
+        "High protein"
+      ],
+      "popular": 95,
+      "version": 1,
+      "badge": "POPULAR",
+      "photo": "chicken_karahi"
+    },
+    {
+      "id": "creamy-garlic-pasta",
+      "title": "Creamy Garlic Pasta",
+      "description": "Silky spaghetti in a quick garlic-parmesan cream sauce, ready in under half an hour.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "lunch",
+        "quick",
+        "italian",
+        "vegetarian"
+      ],
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Heavy cream",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Parmesan, finely grated",
+          "quantity": 60,
+          "unit": "g",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Chili flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh parsley, chopped",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the spaghetti in well-salted water until al dente. Save a cup of the pasta water, then drain.",
+          "tip": "Pasta water is the secret to a glossy sauce.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Melt the butter with the olive oil in a wide pan over medium heat. Add the garlic and cook until fragrant, without browning.",
+          "tip": "Browned garlic turns bitter, so lower the heat if it colors fast.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Pour in the cream, add the pepper and chili flakes, and simmer gently until slightly thickened.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Stir in the parmesan until the sauce is smooth."
+        },
+        {
+          "text": "Add the spaghetti and toss, loosening with splashes of pasta water until the sauce coats every strand."
+        },
+        {
+          "text": "Finish with parsley and extra parmesan. Serve right away."
+        }
+      ],
+      "tags": [
+        "Italian",
+        "Quick",
+        "Vegetarian"
+      ],
+      "popular": 88,
+      "version": 1,
+      "photo": "creamy_garlic_pasta"
+    },
+    {
+      "id": "creamy-chicken-pasta",
+      "title": "Creamy Chicken Pasta",
+      "description": "Tender chicken and penne in a garlicky cream sauce with mushrooms and parmesan.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "italian"
+      ],
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Penne",
+          "quantity": 300,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Chicken breast, sliced",
+          "quantity": 400,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Mushrooms, sliced",
+          "quantity": 200,
+          "unit": "g",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Yellow onion, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Heavy cream",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Chicken stock",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Parmesan, grated",
+          "quantity": 50,
+          "unit": "g",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the penne in salted water until al dente, then drain.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Season the chicken with salt, pepper, and oregano. Sear in olive oil until golden and cooked through, then set aside.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "In the same pan, cook the onion and mushrooms until soft and lightly browned.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Add the garlic for 30 seconds, then pour in the stock and cream. Simmer until the sauce coats a spoon.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Return the chicken to the pan, stir in the parmesan, and add the penne."
+        },
+        {
+          "text": "Toss until everything is glossy and hot. Taste and adjust the salt before serving."
+        }
+      ],
+      "tags": [
+        "Italian",
+        "Family dinner"
+      ],
+      "popular": 82,
+      "version": 1,
+      "photo": "creamy_chicken_pasta"
+    },
+    {
+      "id": "chocolate-cake",
+      "title": "Chocolate Cake",
+      "description": "A moist, deeply chocolatey layer cake with silky ganache and fresh berries.",
+      "category": "Desserts",
+      "categories": [
+        "desserts",
+        "baking",
+        "vegetarian"
+      ],
+      "cuisine": "American",
+      "difficulty": "Medium",
+      "prepTime": 25,
+      "cookTime": 35,
+      "servings": 8,
+      "ingredients": [
+        {
+          "name": "All-purpose flour",
+          "quantity": 1.75,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Unsweetened cocoa powder",
+          "quantity": 0.75,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Baking powder",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Baking soda",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Whole milk",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Vegetable oil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Vanilla extract",
+          "quantity": 2,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Hot coffee",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Dark chocolate, chopped",
+          "quantity": 250,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Heavy cream",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Mixed berries",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oven to 175°C (350°F). Grease and line two 20 cm (8 in) round pans."
+        },
+        {
+          "text": "Whisk the flour, sugar, cocoa, baking powder, baking soda, and a pinch of salt in a large bowl."
+        },
+        {
+          "text": "Add the eggs, milk, oil, and vanilla. Beat until smooth, then stir in the hot coffee. The batter will be thin.",
+          "tip": "A thin batter is what makes the cake moist."
+        },
+        {
+          "text": "Divide between the pans and bake until a skewer comes out clean.",
+          "timerMinutes": 32
+        },
+        {
+          "text": "Cool in the pans for 10 minutes, then turn out onto a rack and cool completely.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "For the ganache, pour the hot cream over the chopped chocolate. Wait 2 minutes, then stir until glossy. Let it thicken.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Spread ganache between the layers and over the top and sides. Finish with berries."
+        }
+      ],
+      "tags": [
+        "Dessert",
+        "Baking",
+        "Celebration"
+      ],
+      "popular": 86,
+      "version": 1,
+      "photo": "chocolate_cake"
+    },
+    {
+      "id": "beef-burger",
+      "title": "Beef Burger",
+      "description": "Juicy smashed-style beef patties with melted cheese, crisp lettuce, and a toasted bun.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Ground beef (80/20)",
+          "quantity": 600,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Burger buns",
+          "quantity": 4,
+          "unit": "",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cheddar slices",
+          "quantity": 4,
+          "unit": "",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Lettuce leaves",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomato, sliced",
+          "quantity": 1,
+          "unit": "large",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Red onion, sliced",
+          "quantity": 0.5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Butter, for the buns",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 4,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ketchup",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Divide the beef into 4 loose balls without overworking it. Season generously with salt and pepper just before cooking.",
+          "tip": "Handling the meat as little as possible keeps the patties tender."
+        },
+        {
+          "text": "Heat a heavy pan or griddle until very hot. Press each ball flat into a patty and cook until a dark crust forms.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Flip, top with cheddar, and cook until the cheese melts.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Toast the buttered buns cut-side down until golden.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Spread mayonnaise and ketchup on the buns. Stack lettuce, patty, tomato, and onion, and serve immediately."
+        }
+      ],
+      "tags": [
+        "American",
+        "Comfort food"
+      ],
+      "popular": 90,
+      "version": 1,
+      "photo": "beef_burger"
+    },
+    {
+      "id": "fluffy-pancakes",
+      "title": "Fluffy Pancakes",
+      "description": "Thick, tender buttermilk pancakes with golden edges. Serve with berries and maple syrup.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "vegetarian"
+      ],
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 10,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "All-purpose flour",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Baking powder",
+          "quantity": 2,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Buttermilk",
+          "quantity": 1.25,
+          "unit": "cups",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Melted butter",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Vanilla extract",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Mixed berries",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Maple syrup",
+          "quantity": 4,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk the flour, baking powder, sugar, and salt together in a large bowl."
+        },
+        {
+          "text": "In another bowl, mix the buttermilk, egg, melted butter, and vanilla."
+        },
+        {
+          "text": "Pour the wet mixture into the dry and stir just until combined. A few lumps are fine.",
+          "tip": "Overmixing makes pancakes tough. Rest the batter for 5 minutes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Heat a lightly buttered pan over medium heat. Pour in about a quarter cup of batter per pancake."
+        },
+        {
+          "text": "Cook until bubbles form on the surface and the edges look set, then flip and cook until golden.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Stack and serve warm with berries, butter, and maple syrup."
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "Vegetarian",
+        "Kid-friendly"
+      ],
+      "popular": 84,
+      "version": 1,
+      "photo": "fluffy_pancakes"
+    },
+    {
+      "id": "grilled-chicken",
+      "title": "Grilled Chicken",
+      "description": "Smoky, herb-marinated chicken breasts served with a crisp salad and roasted vegetables.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisine": "Mediterranean",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Chicken breasts",
+          "quantity": 4,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Lemon, juiced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Zucchini, sliced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cherry tomatoes",
+          "quantity": 200,
+          "unit": "g",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Mixed salad leaves",
+          "quantity": 100,
+          "unit": "g",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix the olive oil, lemon juice, garlic, oregano, paprika, salt, and pepper. Coat the chicken and marinate for at least 15 minutes.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Pound the thickest part of each breast lightly so they cook evenly."
+        },
+        {
+          "text": "Heat a grill pan or barbecue to medium-high. Grill the chicken until it has char marks and reaches 74°C (165°F) inside.",
+          "tip": "Turn only once so you get clean grill marks.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Grill the zucchini and tomatoes alongside until softened and lightly charred.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Rest the chicken for 5 minutes, then slice and serve over the salad leaves with the vegetables.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "High protein",
+        "Gluten-free",
+        "Healthy"
+      ],
+      "popular": 78,
+      "version": 1,
+      "photo": "grilled_chicken"
+    },
+    {
+      "id": "grilled-lemon-chicken",
+      "title": "Grilled Lemon Chicken",
+      "description": "Bright, zesty chicken thighs with lemon, garlic, and thyme, grilled until crisp at the edges.",
+      "category": "Dinner",
+      "categories": [
+        "dinner"
+      ],
+      "cuisine": "Mediterranean",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 25,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Chicken thighs, skin-on",
+          "quantity": 4,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Lemons",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, crushed",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh thyme sprigs",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Baby potatoes, halved",
+          "quantity": 300,
+          "unit": "g",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Zest one lemon and squeeze both. Mix the zest and juice with the oil, garlic, thyme, honey, salt, and pepper."
+        },
+        {
+          "text": "Coat the chicken thighs and let them sit while you heat the grill.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Boil the potatoes until just tender, drain, and toss them in a little of the marinade.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Grill the chicken skin-side down until the skin is crisp, then flip and cook through. Grill the potatoes alongside.",
+          "tip": "Chicken thighs are done at 80°C (175°F) and stay juicy.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rest for 5 minutes and serve with the potatoes and lemon wedges.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "Gluten-free",
+        "High protein"
+      ],
+      "popular": 76,
+      "version": 1,
+      "photo": "grilled_lemon_chicken"
+    },
+    {
+      "id": "mango-smoothie",
+      "title": "Mango Smoothie",
+      "description": "A creamy, sunny mango smoothie with yogurt and a hint of cardamom.",
+      "category": "Drinks",
+      "categories": [
+        "drinks",
+        "quick",
+        "breakfast",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 8,
+      "cookTime": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Ripe mango, cubed",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Plain yogurt",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Cold milk",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ground cardamom",
+          "quantity": 1,
+          "unit": "pinch",
+          "group": "SPICES"
+        },
+        {
+          "name": "Ice cubes",
+          "quantity": 6,
+          "unit": "",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Add the mango, yogurt, milk, honey, and cardamom to a blender."
+        },
+        {
+          "text": "Blend on high until completely smooth.",
+          "tip": "Frozen mango makes it thicker and colder, so skip the ice if you use it.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Add the ice and blend again for a few seconds."
+        },
+        {
+          "text": "Taste and add more honey if needed. Pour into glasses and serve right away."
+        }
+      ],
+      "tags": [
+        "Drink",
+        "Quick",
+        "Vegetarian"
+      ],
+      "popular": 85,
+      "version": 1,
+      "photo": "mango_smoothie"
+    },
+    {
+      "id": "garlic-bread",
+      "title": "Garlic Bread",
+      "description": "Crisp-edged, buttery garlic bread with parsley and a golden cheesy top.",
+      "category": "Snacks",
+      "categories": [
+        "snacks",
+        "quick",
+        "italian",
+        "vegetarian"
+      ],
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 10,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Baguette or ciabatta",
+          "quantity": 1,
+          "unit": "loaf",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Soft butter",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Garlic cloves, grated",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh parsley, chopped",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Mozzarella, shredded",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oven to 200°C (400°F)."
+        },
+        {
+          "text": "Mash the butter with the garlic, parsley, and salt until evenly combined."
+        },
+        {
+          "text": "Slice the loaf in half lengthwise and spread the garlic butter generously over both cut sides."
+        },
+        {
+          "text": "Scatter the mozzarella on top. Bake until the cheese is bubbling and the edges are golden.",
+          "tip": "For extra crunch, finish under the broiler for 1 minute.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Cut into pieces and serve warm."
+        }
+      ],
+      "tags": [
+        "Italian",
+        "Side dish",
+        "Vegetarian"
+      ],
+      "popular": 80,
+      "version": 1,
+      "photo": "garlic_bread"
+    },
+    {
+      "id": "chicken-vegetable-soup",
+      "title": "Chicken & Vegetable Soup",
+      "description": "A comforting, clear chicken soup packed with carrots, celery, potatoes, and fresh herbs.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "lunch"
+      ],
+      "cuisine": "Comfort food",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 30,
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "Chicken breasts or thighs",
+          "quantity": 500,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Chicken stock",
+          "quantity": 6,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Carrots, diced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Celery stalks, diced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Potatoes, cubed",
+          "quantity": 2,
+          "unit": "medium",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Yellow onion, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Bay leaf",
+          "quantity": 1,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh parsley",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oil in a large pot and cook the onion, carrots, and celery until softened.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Stir in the garlic for 30 seconds, then add the stock, bay leaf, and chicken."
+        },
+        {
+          "text": "Bring to a boil, then lower the heat and simmer until the chicken is cooked through.",
+          "tip": "Skim any foam from the surface for a clearer soup.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Lift out the chicken and shred it with two forks."
+        },
+        {
+          "text": "Add the potatoes to the pot and simmer until tender.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Return the chicken, season with salt and pepper, and simmer for 2 minutes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Remove the bay leaf, stir in the parsley, and serve hot."
+        }
+      ],
+      "tags": [
+        "Comfort food",
+        "Healthy",
+        "Gluten-free"
+      ],
+      "popular": 74,
+      "version": 1,
+      "photo": "chicken_vegetable_soup"
+    },
+    {
+      "id": "chicken-pulao",
+      "title": "Chicken Pulao",
+      "description": "A gentle, aromatic one-pot rice and chicken dish, the kind that tastes like home.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 15,
+      "cookTime": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Chicken, bone-in pieces",
+          "quantity": 600,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Yellow onions, sliced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Whole spices (cloves, cardamom, cinnamon, bay)",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the rice and soak it for 20 minutes, then drain.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Heat the oil and fry the onions until deep golden. Remove half for garnish."
+        },
+        {
+          "text": "Add the whole spices and cumin, then the chicken and ginger-garlic paste. Fry until the chicken changes color.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Pour in 4 cups of water, add the salt, and simmer until the chicken is nearly tender.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Add the rice, bring to a boil, then cover and cook on the lowest heat until the water is absorbed.",
+          "tip": "Do not lift the lid while the rice steams.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Rest for 5 minutes, fluff gently, and top with the reserved fried onions.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "Pakistani",
+        "One pot",
+        "Gluten-free"
+      ],
+      "popular": 79,
+      "version": 1,
+      "photo": "chicken_pulao"
+    },
+    {
+      "id": "banana-bread",
+      "title": "Banana Bread",
+      "description": "A moist, golden loaf made with very ripe bananas, perfect with butter and coffee.",
+      "category": "Baking",
+      "categories": [
+        "baking",
+        "desserts",
+        "breakfast",
+        "vegetarian"
+      ],
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 55,
+      "servings": 8,
+      "ingredients": [
+        {
+          "name": "Very ripe bananas",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "All-purpose flour",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.75,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Melted butter",
+          "quantity": 0.33,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Baking soda",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Vanilla extract",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ground cinnamon",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Walnuts, chopped",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oven to 175°C (350°F) and line a loaf pan with parchment."
+        },
+        {
+          "text": "Mash the bananas in a large bowl until mostly smooth."
+        },
+        {
+          "text": "Stir in the melted butter, sugar, egg, and vanilla."
+        },
+        {
+          "text": "Fold in the flour, baking soda, salt, and cinnamon until just combined, then the walnuts.",
+          "tip": "Stop mixing as soon as no dry flour remains."
+        },
+        {
+          "text": "Pour into the pan and bake until a skewer comes out clean. Cover with foil if the top browns too fast.",
+          "timerMinutes": 55
+        },
+        {
+          "text": "Cool in the pan for 10 minutes, then lift out and cool on a rack before slicing.",
+          "timerMinutes": 10
+        }
+      ],
+      "tags": [
+        "Baking",
+        "Vegetarian",
+        "Weekend"
+      ],
+      "popular": 77,
+      "version": 1,
+      "photo": "banana_bread"
+    },
+    {
+      "id": "green-chutney",
+      "title": "Spicy Green Chutney",
+      "description": "A fiery, fresh mint and cilantro chutney for samosas, kebabs, and sandwiches.",
+      "category": "Snacks",
+      "categories": [
+        "snacks",
+        "vegetarian",
+        "pakistani",
+        "quick"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 8,
+      "ingredients": [
+        {
+          "name": "Fresh cilantro",
+          "quantity": 1,
+          "unit": "bunch",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh mint leaves",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Green chilies",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cumin seeds, toasted",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash the cilantro and mint well and pat them dry."
+        },
+        {
+          "text": "Add everything to a blender with 3 tablespoons of cold water."
+        },
+        {
+          "text": "Blend until smooth, adding a spoon of water at a time if needed.",
+          "tip": "Cold water keeps the chutney bright green."
+        },
+        {
+          "text": "Taste and adjust the salt, lemon, and chili. Chill before serving.",
+          "timerMinutes": 10
+        }
+      ],
+      "tags": [
+        "Condiment",
+        "Vegetarian",
+        "Vegan"
+      ],
+      "popular": 70,
+      "version": 1,
+      "photo": "green_chutney"
+    },
+    {
+      "id": "tomato-chicken-rice",
+      "title": "Tomato Chicken Rice",
+      "description": "A cozy one-pot dinner of juicy chicken simmered with rice in a rich tomato base.",
+      "category": "Dinner",
+      "categories": [
+        "dinner"
+      ],
+      "cuisine": "Comfort food",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Chicken thighs, boneless",
+          "quantity": 600,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Long-grain rice",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Crushed tomatoes",
+          "quantity": 400,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Yellow onion, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Red bell pepper, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Chicken stock",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Season the chicken with salt, paprika, and cumin. Brown in the oil in a wide pot, then set aside.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Cook the onion and pepper in the same pot until soft, then add the garlic.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Stir in the rice and the crushed tomatoes and cook for a minute.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Add the stock, nestle the chicken on top, and bring to a boil."
+        },
+        {
+          "text": "Cover and simmer on low until the rice is tender and the liquid is absorbed.",
+          "tip": "Resist stirring so the rice steams evenly.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rest for 5 minutes, fluff, and serve.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "One pot",
+        "Family dinner",
+        "Gluten-free"
+      ],
+      "popular": 72,
+      "version": 1,
+      "photo": "tomato_chicken_rice"
+    },
+    {
+      "id": "one-pot-chicken-pilaf",
+      "title": "One-Pot Chicken Pilaf",
+      "description": "Fluffy rice cooked with chicken, carrots, and warm spices, with only one pot to wash.",
+      "category": "Dinner",
+      "categories": [
+        "dinner"
+      ],
+      "cuisine": "Comfort food",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Chicken thighs, bone-in",
+          "quantity": 700,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Basmati rice",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Carrots, grated",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Yellow onion, sliced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Chicken stock",
+          "quantity": 3.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Brown the chicken in the oil in a heavy pot, then remove it to a plate.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Add the onion and cook until golden. Stir in the garlic, cumin, and turmeric.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Add the carrots and the rinsed rice and stir for a minute to coat the grains."
+        },
+        {
+          "text": "Pour in the stock, add the salt, and return the chicken to the pot. Bring to a boil."
+        },
+        {
+          "text": "Cover tightly and cook on the lowest heat until the liquid is absorbed.",
+          "tip": "Wrap the lid in a clean towel to keep steam from escaping.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rest for 10 minutes, then fluff with a fork and serve.",
+          "timerMinutes": 10
+        }
+      ],
+      "tags": [
+        "One pot",
+        "Family dinner"
+      ],
+      "popular": 71,
+      "version": 1,
+      "photo": "one_pot_chicken_pilaf"
+    },
+    {
+      "id": "masala-omelette",
+      "title": "Masala Omelette",
+      "description": "A fluffy omelette with onion, tomato, green chili and fresh coriander.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "quick",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 7,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Red onion, finely chopped",
+          "quantity": 0.5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomato, finely chopped",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Green chili, minced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Oil or butter",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk the eggs with salt and pepper until no streaks of white remain."
+        },
+        {
+          "text": "Stir in the onion, tomato, chili and coriander."
+        },
+        {
+          "text": "Heat the oil in a non-stick pan over medium heat.",
+          "tip": "The pan is ready when a drop of egg sizzles gently.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Pour in the eggs and let them set for 2 minutes, lifting the edges so raw egg runs underneath.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Flip once, cook another minute and serve hot with toast or paratha.",
+          "timerMinutes": 1
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "Quick",
+        "Gluten-free"
+      ],
+      "popular": 70,
+      "version": 1
+    },
+    {
+      "id": "overnight-oats",
+      "title": "Overnight Oats",
+      "description": "Creamy oats soaked in milk and yogurt, ready to eat straight from the fridge.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "quick",
+        "vegetarian"
+      ],
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Rolled oats",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Milk",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Plain yogurt",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Chia seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Banana, sliced",
+          "quantity": 0.5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Chopped nuts",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Stir the oats, milk, yogurt, honey and chia seeds together in a jar."
+        },
+        {
+          "text": "Cover and refrigerate for at least 6 hours or overnight.",
+          "tip": "Thinner oats? Add a splash more milk before serving."
+        },
+        {
+          "text": "Top with banana and nuts just before eating."
+        },
+        {
+          "text": "Eat cold, or warm it for 1 minute in the microwave."
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "No-cook",
+        "Vegetarian"
+      ],
+      "popular": 62,
+      "version": 1
+    },
+    {
+      "id": "aloo-paratha",
+      "title": "Aloo Paratha",
+      "description": "Flaky flatbread stuffed with spiced mashed potato, best with yogurt and pickle.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 30,
+      "cookTime": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Whole wheat flour",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Water",
+          "quantity": 0.75,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Potatoes, boiled and mashed",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Red chili flakes",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Ghee or oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Knead the flour, water and a pinch of salt into a soft dough. Rest it for 20 minutes.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Mix the mashed potato with cumin, chili flakes, coriander and salt."
+        },
+        {
+          "text": "Divide the dough into 8 balls. Flatten one, add a spoon of filling, pinch it closed and roll out gently."
+        },
+        {
+          "text": "Cook on a hot griddle, brushing with ghee, until golden spots appear on both sides.",
+          "tip": "Press the edges lightly so the paratha puffs.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Serve hot with yogurt and pickle."
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "Pakistani",
+        "Vegetarian"
+      ],
+      "popular": 80,
+      "version": 1
+    },
+    {
+      "id": "chickpea-salad",
+      "title": "Chickpea Salad",
+      "description": "A crunchy salad of chickpeas, cucumber, tomato and herbs with a lemon dressing.",
+      "category": "Lunch",
+      "categories": [
+        "lunch",
+        "quick",
+        "vegetarian"
+      ],
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "Canned chickpeas, drained",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cucumber, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomatoes, diced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "quantity": 0.5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh parsley, chopped",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the chickpeas well and let them drain."
+        },
+        {
+          "text": "Combine the chickpeas, cucumber, tomatoes, onion and parsley in a large bowl."
+        },
+        {
+          "text": "Whisk the olive oil, lemon juice and salt, then pour over the salad."
+        },
+        {
+          "text": "Toss and rest for 10 minutes so the flavors blend.",
+          "timerMinutes": 10
+        }
+      ],
+      "tags": [
+        "Lunch",
+        "No-cook",
+        "Vegan"
+      ],
+      "popular": 66,
+      "version": 1
+    },
+    {
+      "id": "daal-chawal",
+      "title": "Daal Chawal",
+      "description": "Comforting yellow lentils with a sizzling garlic and cumin tarka, served over rice.",
+      "category": "Lunch",
+      "categories": [
+        "lunch",
+        "dinner",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Yellow lentils (masoor or moong)",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Water",
+          "quantity": 4,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Garlic cloves, sliced",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Dried red chilies",
+          "quantity": 2,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Oil or ghee",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Cooked rice",
+          "quantity": 3,
+          "unit": "cups",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the lentils until the water runs clear."
+        },
+        {
+          "text": "Simmer the lentils with water, turmeric and salt until completely soft.",
+          "tip": "Skim off any foam that rises.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Mash lightly with a spoon so the daal is thick and creamy."
+        },
+        {
+          "text": "Heat the oil and fry the cumin, garlic and chilies until the garlic turns golden.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Pour the sizzling tarka over the daal and serve with rice."
+        }
+      ],
+      "tags": [
+        "Lunch",
+        "Pakistani",
+        "Vegan"
+      ],
+      "popular": 78,
+      "version": 1
+    },
+    {
+      "id": "palak-paneer",
+      "title": "Palak Paneer",
+      "description": "Soft paneer cubes in a smooth, gently spiced spinach sauce.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "vegetarian",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Fresh spinach",
+          "quantity": 500,
+          "unit": "g",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Paneer, cubed",
+          "quantity": 250,
+          "unit": "g",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Onion, chopped",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomato, chopped",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger, grated",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cream",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blanch the spinach in boiling water for 2 minutes, then cool in cold water and blend to a smooth purée.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Fry the cumin, onion, garlic and ginger in oil until the onion softens.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Add the tomato and cook until it breaks down, then pour in the spinach purée and salt.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Add the paneer and garam masala and simmer gently.",
+          "tip": "Do not boil hard or the paneer turns rubbery.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Stir in the cream and serve with naan or rice."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Pakistani",
+        "Vegetarian"
+      ],
+      "popular": 74,
+      "version": 1
+    },
+    {
+      "id": "chicken-fried-rice",
+      "title": "Chicken Fried Rice",
+      "description": "Wok-fried rice with chicken, egg and crisp vegetables, ready in 25 minutes.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "quick",
+        "asian"
+      ],
+      "cuisine": "Asian",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "Cooked rice, cold",
+          "quantity": 3,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Chicken breast, diced",
+          "quantity": 250,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Mixed vegetables (peas, carrot, corn)",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Stir-fry the chicken in hot oil until cooked through, then set aside.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Scramble the eggs in the same pan and break them into small pieces."
+        },
+        {
+          "text": "Add the garlic and vegetables and fry on high heat for 2 minutes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Add the cold rice and soy sauce and toss until every grain is coated and hot.",
+          "tip": "Day-old rice fries best because it is drier.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Return the chicken, add the spring onions and sesame oil, and serve at once."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Asian",
+        "Quick"
+      ],
+      "popular": 84,
+      "version": 1
+    },
+    {
+      "id": "vegetable-stir-fry",
+      "title": "Vegetable Stir-Fry",
+      "description": "Crisp-tender vegetables tossed in a garlicky ginger and soy sauce.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "quick",
+        "asian",
+        "vegetarian"
+      ],
+      "cuisine": "Asian",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 8,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Broccoli florets",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Carrot, sliced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Bell pepper, sliced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Mushrooms, sliced",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger, grated",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix the soy sauce and honey in a small bowl."
+        },
+        {
+          "text": "Heat the oil in a wok over the highest heat.",
+          "tip": "A very hot pan keeps the vegetables crisp.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Stir-fry the carrot and broccoli for 3 minutes.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Add the pepper, mushrooms, garlic and ginger and fry for 2 more minutes.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Pour in the sauce, toss for 30 seconds and serve over rice or noodles."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Asian",
+        "Vegan"
+      ],
+      "popular": 68,
+      "version": 1
+    },
+    {
+      "id": "seekh-kebab",
+      "title": "Seekh Kebab",
+      "description": "Juicy spiced beef mince grilled on skewers, with mint chutney on the side.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Medium",
+      "prepTime": 25,
+      "cookTime": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Beef mince",
+          "quantity": 500,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Onion, grated and squeezed dry",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Green chilies, minced",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cumin powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Red chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Knead the mince with every other ingredient for 5 minutes until sticky and well combined.",
+          "tip": "Squeezing the onion dry stops the kebabs falling apart."
+        },
+        {
+          "text": "Rest the mixture in the fridge for 30 minutes.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Wet your hands and press the mixture around skewers into long, even shapes."
+        },
+        {
+          "text": "Grill or pan-cook over medium-high heat, turning often, until browned and cooked through.",
+          "tip": "The center must be hot and no longer pink.",
+          "timerMinutes": 12
+        },
+        {
+          "text": "Serve with chutney, onion rings and naan."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Pakistani",
+        "Grill"
+      ],
+      "popular": 88,
+      "version": 1
+    },
+    {
+      "id": "spaghetti-aglio-olio",
+      "title": "Spaghetti Aglio e Olio",
+      "description": "Spaghetti with golden garlic, olive oil and chili: simple, fast and full of flavor.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "quick",
+        "italian",
+        "vegetarian"
+      ],
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Garlic cloves, thinly sliced",
+          "quantity": 5,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Red chili flakes",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Fresh parsley, chopped",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Parmesan, grated",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the spaghetti in well-salted water until al dente. Save a cup of the pasta water.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Warm the oil and garlic over low heat until the garlic is just golden.",
+          "tip": "Garlic that browns turns bitter, so keep the heat low.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Add the chili flakes, then the drained pasta and a splash of pasta water."
+        },
+        {
+          "text": "Toss over the heat until the sauce clings to the pasta.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Finish with parsley and parmesan and serve immediately."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Italian",
+        "Quick"
+      ],
+      "popular": 76,
+      "version": 1
+    },
+    {
+      "id": "avocado-toast",
+      "title": "Avocado Toast",
+      "description": "Toasted bread piled with lemony mashed avocado and a pinch of chili.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "quick",
+        "vegetarian"
+      ],
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 3,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Bread slices",
+          "quantity": 2,
+          "unit": "",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ripe avocado",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Red chili flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toast the bread until golden and crisp.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Mash the avocado with the lemon juice and salt, leaving some chunks."
+        },
+        {
+          "text": "Spread it thickly on the toast."
+        },
+        {
+          "text": "Finish with chili flakes and a drizzle of olive oil."
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "Quick",
+        "Vegan"
+      ],
+      "popular": 72,
+      "version": 1
+    },
+    {
+      "id": "kheer",
+      "title": "Kheer",
+      "description": "Slow-simmered creamy rice pudding scented with cardamom and topped with nuts.",
+      "category": "Desserts",
+      "categories": [
+        "desserts",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 50,
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Full-fat milk",
+          "quantity": 1,
+          "unit": "liter",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cardamom pods, crushed",
+          "quantity": 4,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Almonds, sliced",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Pistachios, chopped",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Raisins",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the rice and soak it for 20 minutes, then drain.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Bring the milk to a boil, add the rice and cardamom, and lower the heat."
+        },
+        {
+          "text": "Simmer, stirring often, until the rice is very soft and the milk has thickened.",
+          "tip": "Scrape the bottom often so it does not catch.",
+          "timerMinutes": 40
+        },
+        {
+          "text": "Stir in the sugar and raisins and cook for 5 more minutes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Serve warm or chilled, topped with almonds and pistachios."
+        }
+      ],
+      "tags": [
+        "Dessert",
+        "Pakistani",
+        "Vegetarian"
+      ],
+      "popular": 82,
+      "version": 1
+    },
+    {
+      "id": "chocolate-mousse",
+      "title": "Chocolate Mousse",
+      "description": "Airy, rich chocolate mousse made with just four ingredients.",
+      "category": "Desserts",
+      "categories": [
+        "desserts",
+        "vegetarian"
+      ],
+      "cuisine": "French",
+      "difficulty": "Medium",
+      "prepTime": 20,
+      "cookTime": 0,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Dark chocolate",
+          "quantity": 200,
+          "unit": "g",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Eggs, separated",
+          "quantity": 4,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Heavy cream",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Pinch of salt",
+          "quantity": 1,
+          "unit": "",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Melt the chocolate gently over a pan of simmering water, then let it cool slightly."
+        },
+        {
+          "text": "Stir the egg yolks into the chocolate one at a time."
+        },
+        {
+          "text": "Whip the cream to soft peaks and fold half into the chocolate."
+        },
+        {
+          "text": "Whisk the egg whites with the salt and sugar to stiff peaks.",
+          "tip": "Make sure the bowl is completely free of grease."
+        },
+        {
+          "text": "Fold in the whites gently, divide into glasses and chill for 3 hours.",
+          "timerMinutes": 180
+        }
+      ],
+      "tags": [
+        "Dessert",
+        "French",
+        "No-bake"
+      ],
+      "popular": 79,
+      "version": 1
+    },
+    {
+      "id": "hummus",
+      "title": "Classic Hummus",
+      "description": "Silky chickpea dip with tahini, lemon and garlic, perfect with warm bread.",
+      "category": "Snacks",
+      "categories": [
+        "snacks",
+        "quick",
+        "vegetarian"
+      ],
+      "cuisine": "Middle Eastern",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "Canned chickpeas, drained",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Tahini",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic clove",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cold water",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Paprika",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blend the tahini and lemon juice for 1 minute until pale and thick."
+        },
+        {
+          "text": "Add the garlic, 2 tablespoons of oil and salt and blend again."
+        },
+        {
+          "text": "Add the chickpeas and blend until very smooth, adding cold water to loosen it.",
+          "tip": "A few extra minutes of blending makes it silkier."
+        },
+        {
+          "text": "Spoon into a bowl, swirl the top and finish with oil and paprika."
+        }
+      ],
+      "tags": [
+        "Snack",
+        "Dip",
+        "Vegan"
+      ],
+      "popular": 70,
+      "version": 1
+    },
+    {
+      "id": "lemon-mint-cooler",
+      "title": "Lemon Mint Cooler",
+      "description": "A bright, icy lemonade with crushed mint, ideal for hot afternoons.",
+      "category": "Drinks",
+      "categories": [
+        "drinks",
+        "quick",
+        "vegetarian"
+      ],
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 0,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Fresh lemon juice",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Fresh mint leaves",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cold water",
+          "quantity": 4,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ice cubes",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Pinch of salt",
+          "quantity": 1,
+          "unit": "",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Crush the mint with the sugar in a jug until fragrant."
+        },
+        {
+          "text": "Add the lemon juice and salt and stir until the sugar dissolves."
+        },
+        {
+          "text": "Pour in the cold water and mix well."
+        },
+        {
+          "text": "Serve over plenty of ice with extra mint."
+        }
+      ],
+      "tags": [
+        "Drink",
+        "Refreshing",
+        "Vegan"
+      ],
+      "popular": 65,
+      "version": 1
+    },
+    {
+      "id": "chana-chaat",
+      "title": "Chana Chaat",
+      "description": "Tangy chickpea chaat with onion, tomato, cucumber and a squeeze of lemon.",
+      "category": "Snacks",
+      "categories": [
+        "snacks",
+        "quick",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Boiled chickpeas",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Red onion, chopped",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomato, chopped",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cucumber, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Chaat masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Green chili, minced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss the chickpeas, onion, tomato and cucumber in a large bowl."
+        },
+        {
+          "text": "Add the chaat masala, lemon juice, chili and coriander."
+        },
+        {
+          "text": "Mix well and taste, adding more lemon or masala if you like.",
+          "tip": "Serve right away so the vegetables stay crisp."
+        },
+        {
+          "text": "Serve cold in small bowls."
+        }
+      ],
+      "tags": [
+        "Snack",
+        "Pakistani",
+        "Vegan"
+      ],
+      "popular": 71,
+      "version": 1
+    },
+    {
+      "id": "anda-curry",
+      "title": "Anda Curry",
+      "description": "Hard-boiled eggs simmered in a spiced onion and tomato gravy.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "pakistani"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 25,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Eggs, hard-boiled",
+          "quantity": 6,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Onions, finely chopped",
+          "quantity": 2,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Tomatoes, puréed",
+          "quantity": 3,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Ginger-garlic paste",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Red chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Coriander powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Fry the onions in oil until deep golden.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Add the ginger-garlic paste and cook for a minute until fragrant.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Stir in the turmeric, chili, coriander and salt, then pour in the tomato purée.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Cook until the oil separates from the gravy.",
+          "tip": "Add a splash of water if it starts to stick.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Score the eggs lightly, add them with a cup of water and simmer for 5 minutes.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Finish with garam masala and serve with roti or rice."
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Pakistani",
+        "Eggs"
+      ],
+      "popular": 69,
+      "version": 1
+    },
+    {
+      "id": "vegetable-pulao",
+      "title": "Vegetable Pulao",
+      "description": "Fragrant basmati rice cooked with peas, carrots and whole spices.",
+      "category": "Dinner",
+      "categories": [
+        "dinner",
+        "lunch",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Mixed vegetables (peas, carrot, beans)",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Onion, sliced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Cumin seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cinnamon stick",
+          "quantity": 1,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cardamom pods",
+          "quantity": 3,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cloves",
+          "quantity": 3,
+          "unit": "",
+          "group": "SPICES"
+        },
+        {
+          "name": "Ghee or oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Water",
+          "quantity": 3.5,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the rice and soak it for 20 minutes, then drain.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Fry the whole spices and cumin in ghee until they sizzle."
+        },
+        {
+          "text": "Add the onion and cook until golden, then add the vegetables.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Add the rice, water and salt and bring to a boil.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Cover tightly, lower the heat and cook until the water is absorbed.",
+          "tip": "Do not lift the lid while it cooks.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Rest for 5 minutes, fluff with a fork and serve.",
+          "timerMinutes": 5
+        }
+      ],
+      "tags": [
+        "Dinner",
+        "Pakistani",
+        "Vegetarian"
+      ],
+      "popular": 73,
+      "version": 1
+    },
+    {
+      "id": "chicken-shawarma-wrap",
+      "title": "Chicken Shawarma Wrap",
+      "description": "Marinated chicken strips in a warm wrap with crunchy vegetables and garlic sauce.",
+      "category": "Lunch",
+      "categories": [
+        "lunch",
+        "dinner"
+      ],
+      "cuisine": "Middle Eastern",
+      "difficulty": "Medium",
+      "prepTime": 25,
+      "cookTime": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Chicken thighs, sliced thin",
+          "quantity": 600,
+          "unit": "g",
+          "group": "MEAT"
+        },
+        {
+          "name": "Plain yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Paprika",
+          "quantity": 2,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Flatbreads or wraps",
+          "quantity": 4,
+          "unit": "",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cucumber and tomato, sliced",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic sauce or mayonnaise",
+          "quantity": 4,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix the chicken with the yogurt, garlic, lemon, spices and salt. Marinate for at least 30 minutes.",
+          "tip": "Overnight in the fridge tastes even better.",
+          "timerMinutes": 30
+        },
+        {
+          "text": "Cook the chicken in a very hot pan in batches until browned and cooked through.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Warm the flatbreads in a dry pan for 20 seconds per side.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Spread garlic sauce on each bread, add chicken and vegetables, and roll tightly."
+        },
+        {
+          "text": "Cut in half and serve warm."
+        }
+      ],
+      "tags": [
+        "Lunch",
+        "Wrap",
+        "Chicken"
+      ],
+      "popular": 83,
+      "version": 1
+    },
+    {
+      "id": "mango-lassi",
+      "title": "Mango Lassi",
+      "description": "A thick, cooling yogurt drink with ripe mango and a pinch of cardamom.",
+      "category": "Drinks",
+      "categories": [
+        "drinks",
+        "quick",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Ripe mango, cubed",
+          "quantity": 1.5,
+          "unit": "cups",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Plain yogurt",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Cold milk",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Sugar or honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Ground cardamom",
+          "quantity": 1,
+          "unit": "pinch",
+          "group": "SPICES"
+        },
+        {
+          "name": "Ice cubes",
+          "quantity": 4,
+          "unit": "",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Add the mango, yogurt, milk, sugar, cardamom and ice to a blender."
+        },
+        {
+          "text": "Blend until completely smooth and frothy.",
+          "tip": "Frozen mango makes it thicker and colder."
+        },
+        {
+          "text": "Taste and add more sugar if the mango is not sweet."
+        },
+        {
+          "text": "Pour into tall glasses and serve at once."
+        }
+      ],
+      "tags": [
+        "Drink",
+        "Pakistani",
+        "Vegetarian"
+      ],
+      "popular": 77,
+      "version": 1
+    },
+    {
+      "id": "tomato-soup",
+      "title": "Tomato Soup",
+      "description": "Smooth roasted-tomato soup with garlic and basil, wonderful with toast.",
+      "category": "Lunch",
+      "categories": [
+        "lunch",
+        "dinner",
+        "vegetarian"
+      ],
+      "difficulty": "Easy",
+      "prepTime": 10,
+      "cookTime": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Ripe tomatoes, halved",
+          "quantity": 1,
+          "unit": "kg",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Onion, quartered",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Garlic cloves",
+          "quantity": 4,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Vegetable stock",
+          "quantity": 2,
+          "unit": "cups",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Fresh basil leaves",
+          "quantity": 0.25,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat the oven to 200 C (400 F). Spread the tomatoes, onion and garlic on a tray, drizzle with oil and season."
+        },
+        {
+          "text": "Roast until the tomatoes are soft and lightly charred.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Tip everything into a pot with the stock and simmer for 10 minutes.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Add the basil and blend until smooth.",
+          "tip": "Blend hot soup in small batches and vent the lid."
+        },
+        {
+          "text": "Stir in the sugar, adjust the seasoning and serve hot."
+        }
+      ],
+      "tags": [
+        "Soup",
+        "Vegetarian",
+        "Comfort"
+      ],
+      "popular": 72,
+      "version": 1
+    },
+    {
+      "id": "french-toast",
+      "title": "French Toast",
+      "description": "Golden, custardy slices of bread with cinnamon, ready in 15 minutes.",
+      "category": "Breakfast",
+      "categories": [
+        "breakfast",
+        "quick",
+        "vegetarian"
+      ],
+      "cuisine": "French",
+      "difficulty": "Easy",
+      "prepTime": 5,
+      "cookTime": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Bread slices",
+          "quantity": 4,
+          "unit": "",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "",
+          "group": "MEAT"
+        },
+        {
+          "name": "Milk",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "DAIRY"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Cinnamon",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Vanilla extract",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "group": "PANTRY"
+        },
+        {
+          "name": "Butter",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "DAIRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk the eggs, milk, sugar, cinnamon and vanilla in a shallow dish."
+        },
+        {
+          "text": "Dip each bread slice for a few seconds per side so it soaks without falling apart."
+        },
+        {
+          "text": "Melt the butter in a pan over medium heat.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Cook the slices until golden on both sides.",
+          "tip": "Medium heat keeps the center cooked and the outside from burning.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Serve with honey, fruit or maple syrup."
+        }
+      ],
+      "tags": [
+        "Breakfast",
+        "Quick",
+        "Vegetarian"
+      ],
+      "popular": 75,
+      "version": 1
+    },
+    {
+      "id": "fruit-chaat",
+      "title": "Fruit Chaat",
+      "description": "A bright bowl of seasonal fruit with chaat masala, lemon and a hint of sweetness.",
+      "category": "Snacks",
+      "categories": [
+        "snacks",
+        "desserts",
+        "quick",
+        "pakistani",
+        "vegetarian"
+      ],
+      "cuisine": "Pakistani",
+      "difficulty": "Easy",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Apple, diced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Banana, sliced",
+          "quantity": 1,
+          "unit": "",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Orange segments",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Grapes, halved",
+          "quantity": 1,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Pomegranate seeds",
+          "quantity": 0.5,
+          "unit": "cup",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Chaat masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "group": "SPICES"
+        },
+        {
+          "name": "Lemon juice",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PRODUCE"
+        },
+        {
+          "name": "Sugar or honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "group": "PANTRY"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Combine all the fruit in a large bowl."
+        },
+        {
+          "text": "Sprinkle over the chaat masala, lemon juice and sugar."
+        },
+        {
+          "text": "Toss gently and chill for 15 minutes.",
+          "tip": "Add the banana last so it does not turn soft.",
+          "timerMinutes": 15
+        },
+        {
+          "text": "Serve cold."
+        }
+      ],
+      "tags": [
+        "Snack",
+        "Pakistani",
+        "Vegan"
+      ],
+      "popular": 68,
+      "version": 1
+    }
+  ]
+}
